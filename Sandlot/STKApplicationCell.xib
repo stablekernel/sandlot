@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6245"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="eJE-M5-J8z" customClass="STKApplicationCell">
+            <rect key="frame" x="0.0" y="0.0" width="276" height="155"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PVj-0H-w8H">
+                    <rect key="frame" x="8" y="87" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Mes-JM-LJD"/>
+                        <constraint firstAttribute="width" constant="60" id="Mob-eg-Ubq"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="rCn-m4-2Td"/>
+                </imageView>
+                <customView verticalHuggingPriority="1" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="YJy-mL-oIK">
+                    <rect key="frame" x="96" y="8" width="172" height="118"/>
+                </customView>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="7Np-p6-YLD">
+                    <rect key="frame" x="74" y="130" width="196" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="fOR-zY-vcd"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="truncatingHead" sendsActionOnEndEditing="YES" title="Name" usesSingleLineMode="YES" id="Pgq-cd-Wsr">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="0.32306237628314516" green="0.38102013011327873" blue="0.50248947538860111" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.48924623233242071" green="0.40239201004276137" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </textFieldCell>
+                </textField>
+                <box autoresizesSubviews="NO" boxType="custom" borderType="line" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="46m-kX-xkA">
+                    <rect key="frame" x="8" y="1" width="260" height="1"/>
+                    <view key="contentView">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="DdT-ig-cbC"/>
+                    </constraints>
+                    <color key="borderColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </box>
+            </subviews>
+            <constraints>
+                <constraint firstItem="7Np-p6-YLD" firstAttribute="top" secondItem="eJE-M5-J8z" secondAttribute="top" constant="8" id="2uk-p3-u5m"/>
+                <constraint firstAttribute="trailing" secondItem="46m-kX-xkA" secondAttribute="trailing" constant="8" id="Col-kh-oR5"/>
+                <constraint firstAttribute="bottom" secondItem="46m-kX-xkA" secondAttribute="bottom" constant="1" id="Eh0-19-jHv"/>
+                <constraint firstAttribute="trailing" secondItem="YJy-mL-oIK" secondAttribute="trailing" constant="8" id="HgE-tG-flj"/>
+                <constraint firstItem="7Np-p6-YLD" firstAttribute="leading" secondItem="PVj-0H-w8H" secondAttribute="trailing" constant="8" id="Nsd-Wm-brJ"/>
+                <constraint firstItem="PVj-0H-w8H" firstAttribute="leading" secondItem="eJE-M5-J8z" secondAttribute="leading" constant="8" id="TuR-cy-XRI"/>
+                <constraint firstItem="YJy-mL-oIK" firstAttribute="leading" secondItem="7Np-p6-YLD" secondAttribute="leading" constant="20" id="Xnq-sY-p1G"/>
+                <constraint firstItem="46m-kX-xkA" firstAttribute="leading" secondItem="eJE-M5-J8z" secondAttribute="leading" constant="8" id="ZCX-Mt-aRW"/>
+                <constraint firstItem="YJy-mL-oIK" firstAttribute="top" secondItem="7Np-p6-YLD" secondAttribute="bottom" constant="4" id="ZKR-Hr-eQ7"/>
+                <constraint firstItem="PVj-0H-w8H" firstAttribute="top" secondItem="eJE-M5-J8z" secondAttribute="top" constant="8" id="d2k-ei-xHP"/>
+                <constraint firstAttribute="trailing" secondItem="7Np-p6-YLD" secondAttribute="trailing" constant="8" id="iiC-rq-s60"/>
+                <constraint firstAttribute="bottom" secondItem="YJy-mL-oIK" secondAttribute="bottom" constant="8" id="uVH-dL-peo"/>
+            </constraints>
+            <connections>
+                <outlet property="deviceContainer" destination="YJy-mL-oIK" id="0HU-Vp-oCH"/>
+                <outlet property="dividerView" destination="46m-kX-xkA" id="ny7-W4-NQ5"/>
+                <outlet property="imageView" destination="PVj-0H-w8H" id="KfP-j5-SsM"/>
+                <outlet property="textField" destination="7Np-p6-YLD" id="1gH-4t-Lwb"/>
+            </connections>
+            <point key="canvasLocation" x="309" y="36.5"/>
+        </tableCellView>
+    </objects>
+</document>

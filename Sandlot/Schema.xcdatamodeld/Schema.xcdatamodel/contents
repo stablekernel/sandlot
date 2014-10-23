@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="STKApplication" representedClassName="STKApplication" syncable="YES">
+        <attribute name="bundleIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bundlePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iconPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sandboxPath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="device" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STKDevice" inverseName="applications" inverseEntity="STKDevice" syncable="YES"/>
+    </entity>
+    <entity name="STKDevice" representedClassName="STKDevice" syncable="YES">
+        <attribute name="deviceType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="runtime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniqueIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="applications" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STKApplication" inverseName="device" inverseEntity="STKApplication" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="STKApplication" positionX="-54" positionY="-9" width="128" height="120"/>
+        <element name="STKDevice" positionX="-63" positionY="-18" width="128" height="133"/>
+    </elements>
+</model>

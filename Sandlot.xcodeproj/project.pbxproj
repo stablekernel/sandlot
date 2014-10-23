@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE439B0919F974F600A0CB91 /* STKTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE439B0819F974F600A0CB91 /* STKTableHeaderView.m */; };
+		BE5AECAF19F806BE0073D5FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AECAE19F806BE0073D5FA /* main.m */; };
+		BE5AECB219F806BE0073D5FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AECB119F806BE0073D5FA /* AppDelegate.m */; };
+		BE5AECB419F806BE0073D5FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5AECB319F806BE0073D5FA /* Images.xcassets */; };
+		BE5AECB719F806BE0073D5FA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE5AECB519F806BE0073D5FA /* MainMenu.xib */; };
+		BE5AECC319F806BE0073D5FA /* SandlotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AECC219F806BE0073D5FA /* SandlotTests.m */; };
+		BE5AECCF19F809CC0073D5FA /* Schema.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE5AECCD19F809CC0073D5FA /* Schema.xcdatamodeld */; };
+		BE5AECD419F80B760073D5FA /* STKSimulatorStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AECD319F80B760073D5FA /* STKSimulatorStore.m */; };
+		BE5AECD719F80E4B0073D5FA /* STKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AECD619F80E4B0073D5FA /* STKDevice.m */; };
+		BE5AECDA19F80E4B0073D5FA /* STKApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AECD919F80E4B0073D5FA /* STKApplication.m */; };
+		BE5AECDE19F8288E0073D5FA /* STKCommandWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AECDC19F8288E0073D5FA /* STKCommandWindowController.m */; };
+		BE5AECDF19F8288E0073D5FA /* STKCommandWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE5AECDD19F8288E0073D5FA /* STKCommandWindowController.xib */; };
+		BE5AECE619F82E6C0073D5FA /* STKApplicationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5AECE519F82E6C0073D5FA /* STKApplicationCell.m */; };
+		BE5AECE819F82EA90073D5FA /* STKApplicationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE5AECE719F82EA90073D5FA /* STKApplicationCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE5AECBD19F806BE0073D5FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5AECA119F806BD0073D5FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5AECA819F806BE0073D5FA;
+			remoteInfo = Sandlot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE439B0319F95DE800A0CB91 /* STKColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKColors.h; sourceTree = "<group>"; };
+		BE439B0719F974F600A0CB91 /* STKTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKTableHeaderView.h; sourceTree = "<group>"; };
+		BE439B0819F974F600A0CB91 /* STKTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKTableHeaderView.m; sourceTree = "<group>"; };
+		BE5AECA919F806BE0073D5FA /* Sandlot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandlot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5AECAD19F806BE0073D5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5AECAE19F806BE0073D5FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE5AECB019F806BE0073D5FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE5AECB119F806BE0073D5FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE5AECB319F806BE0073D5FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE5AECB619F806BE0073D5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BE5AECBC19F806BE0073D5FA /* SandlotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandlotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5AECC119F806BE0073D5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5AECC219F806BE0073D5FA /* SandlotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandlotTests.m; sourceTree = "<group>"; };
+		BE5AECCE19F809CC0073D5FA /* Schema.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Schema.xcdatamodel; sourceTree = "<group>"; };
+		BE5AECD219F80B760073D5FA /* STKSimulatorStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKSimulatorStore.h; sourceTree = "<group>"; };
+		BE5AECD319F80B760073D5FA /* STKSimulatorStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKSimulatorStore.m; sourceTree = "<group>"; };
+		BE5AECD519F80E4B0073D5FA /* STKDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKDevice.h; sourceTree = "<group>"; };
+		BE5AECD619F80E4B0073D5FA /* STKDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKDevice.m; sourceTree = "<group>"; };
+		BE5AECD819F80E4B0073D5FA /* STKApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKApplication.h; sourceTree = "<group>"; };
+		BE5AECD919F80E4B0073D5FA /* STKApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKApplication.m; sourceTree = "<group>"; };
+		BE5AECDB19F8288E0073D5FA /* STKCommandWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKCommandWindowController.h; sourceTree = "<group>"; };
+		BE5AECDC19F8288E0073D5FA /* STKCommandWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKCommandWindowController.m; sourceTree = "<group>"; };
+		BE5AECDD19F8288E0073D5FA /* STKCommandWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STKCommandWindowController.xib; sourceTree = "<group>"; };
+		BE5AECE419F82E6C0073D5FA /* STKApplicationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKApplicationCell.h; sourceTree = "<group>"; };
+		BE5AECE519F82E6C0073D5FA /* STKApplicationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKApplicationCell.m; sourceTree = "<group>"; };
+		BE5AECE719F82EA90073D5FA /* STKApplicationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STKApplicationCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE5AECA619F806BE0073D5FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5AECB919F806BE0073D5FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE439B0619F974E500A0CB91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE439B0719F974F600A0CB91 /* STKTableHeaderView.h */,
+				BE439B0819F974F600A0CB91 /* STKTableHeaderView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BE5AECA019F806BD0073D5FA = {
+			isa = PBXGroup;
+			children = (
+				BE5AECAB19F806BE0073D5FA /* Sandlot */,
+				BE5AECBF19F806BE0073D5FA /* SandlotTests */,
+				BE5AECAA19F806BE0073D5FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE5AECAA19F806BE0073D5FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AECA919F806BE0073D5FA /* Sandlot.app */,
+				BE5AECBC19F806BE0073D5FA /* SandlotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE5AECAB19F806BE0073D5FA /* Sandlot */ = {
+			isa = PBXGroup;
+			children = (
+				BE439B0619F974E500A0CB91 /* View */,
+				BE5AECE319F82E5B0073D5FA /* Cells */,
+				BE5AECD119F80AE20073D5FA /* Store */,
+				BE5AECD019F80AD40073D5FA /* Controller */,
+				BE5AECCC19F809B30073D5FA /* Model */,
+				BE5AECB319F806BE0073D5FA /* Images.xcassets */,
+				BE5AECB519F806BE0073D5FA /* MainMenu.xib */,
+				BE5AECAC19F806BE0073D5FA /* Supporting Files */,
+				BE439B0319F95DE800A0CB91 /* STKColors.h */,
+			);
+			path = Sandlot;
+			sourceTree = "<group>";
+		};
+		BE5AECAC19F806BE0073D5FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AECAD19F806BE0073D5FA /* Info.plist */,
+				BE5AECAE19F806BE0073D5FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE5AECBF19F806BE0073D5FA /* SandlotTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AECC219F806BE0073D5FA /* SandlotTests.m */,
+				BE5AECC019F806BE0073D5FA /* Supporting Files */,
+			);
+			path = SandlotTests;
+			sourceTree = "<group>";
+		};
+		BE5AECC019F806BE0073D5FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AECC119F806BE0073D5FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE5AECCC19F809B30073D5FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AECCD19F809CC0073D5FA /* Schema.xcdatamodeld */,
+				BE5AECD819F80E4B0073D5FA /* STKApplication.h */,
+				BE5AECD919F80E4B0073D5FA /* STKApplication.m */,
+				BE5AECD519F80E4B0073D5FA /* STKDevice.h */,
+				BE5AECD619F80E4B0073D5FA /* STKDevice.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BE5AECD019F80AD40073D5FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AECB019F806BE0073D5FA /* AppDelegate.h */,
+				BE5AECB119F806BE0073D5FA /* AppDelegate.m */,
+				BE5AECDB19F8288E0073D5FA /* STKCommandWindowController.h */,
+				BE5AECDC19F8288E0073D5FA /* STKCommandWindowController.m */,
+				BE5AECDD19F8288E0073D5FA /* STKCommandWindowController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BE5AECD119F80AE20073D5FA /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AECD219F80B760073D5FA /* STKSimulatorStore.h */,
+				BE5AECD319F80B760073D5FA /* STKSimulatorStore.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		BE5AECE319F82E5B0073D5FA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AECE419F82E6C0073D5FA /* STKApplicationCell.h */,
+				BE5AECE519F82E6C0073D5FA /* STKApplicationCell.m */,
+				BE5AECE719F82EA90073D5FA /* STKApplicationCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE5AECA819F806BE0073D5FA /* Sandlot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5AECC619F806BE0073D5FA /* Build configuration list for PBXNativeTarget "Sandlot" */;
+			buildPhases = (
+				BE5AECA519F806BE0073D5FA /* Sources */,
+				BE5AECA619F806BE0073D5FA /* Frameworks */,
+				BE5AECA719F806BE0073D5FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sandlot;
+			productName = Sandlot;
+			productReference = BE5AECA919F806BE0073D5FA /* Sandlot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE5AECBB19F806BE0073D5FA /* SandlotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5AECC919F806BE0073D5FA /* Build configuration list for PBXNativeTarget "SandlotTests" */;
+			buildPhases = (
+				BE5AECB819F806BE0073D5FA /* Sources */,
+				BE5AECB919F806BE0073D5FA /* Frameworks */,
+				BE5AECBA19F806BE0073D5FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5AECBE19F806BE0073D5FA /* PBXTargetDependency */,
+			);
+			name = SandlotTests;
+			productName = SandlotTests;
+			productReference = BE5AECBC19F806BE0073D5FA /* SandlotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE5AECA119F806BD0073D5FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Stable Kernel";
+				TargetAttributes = {
+					BE5AECA819F806BE0073D5FA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					BE5AECBB19F806BE0073D5FA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = BE5AECA819F806BE0073D5FA;
+					};
+				};
+			};
+			buildConfigurationList = BE5AECA419F806BD0073D5FA /* Build configuration list for PBXProject "Sandlot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE5AECA019F806BD0073D5FA;
+			productRefGroup = BE5AECAA19F806BE0073D5FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE5AECA819F806BE0073D5FA /* Sandlot */,
+				BE5AECBB19F806BE0073D5FA /* SandlotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE5AECA719F806BE0073D5FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5AECDF19F8288E0073D5FA /* STKCommandWindowController.xib in Resources */,
+				BE5AECE819F82EA90073D5FA /* STKApplicationCell.xib in Resources */,
+				BE5AECB419F806BE0073D5FA /* Images.xcassets in Resources */,
+				BE5AECB719F806BE0073D5FA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5AECBA19F806BE0073D5FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE5AECA519F806BE0073D5FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5AECD719F80E4B0073D5FA /* STKDevice.m in Sources */,
+				BE5AECDA19F80E4B0073D5FA /* STKApplication.m in Sources */,
+				BE5AECB219F806BE0073D5FA /* AppDelegate.m in Sources */,
+				BE5AECD419F80B760073D5FA /* STKSimulatorStore.m in Sources */,
+				BE5AECCF19F809CC0073D5FA /* Schema.xcdatamodeld in Sources */,
+				BE5AECE619F82E6C0073D5FA /* STKApplicationCell.m in Sources */,
+				BE439B0919F974F600A0CB91 /* STKTableHeaderView.m in Sources */,
+				BE5AECAF19F806BE0073D5FA /* main.m in Sources */,
+				BE5AECDE19F8288E0073D5FA /* STKCommandWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5AECB819F806BE0073D5FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5AECC319F806BE0073D5FA /* SandlotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE5AECBE19F806BE0073D5FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5AECA819F806BE0073D5FA /* Sandlot */;
+			targetProxy = BE5AECBD19F806BE0073D5FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE5AECB519F806BE0073D5FA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE5AECB619F806BE0073D5FA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE5AECC419F806BE0073D5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE5AECC519F806BE0073D5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE5AECC719F806BE0073D5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sandlot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE5AECC819F806BE0073D5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sandlot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BE5AECCA19F806BE0073D5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SandlotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sandlot.app/Contents/MacOS/Sandlot";
+			};
+			name = Debug;
+		};
+		BE5AECCB19F806BE0073D5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SandlotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sandlot.app/Contents/MacOS/Sandlot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE5AECA419F806BD0073D5FA /* Build configuration list for PBXProject "Sandlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5AECC419F806BE0073D5FA /* Debug */,
+				BE5AECC519F806BE0073D5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5AECC619F806BE0073D5FA /* Build configuration list for PBXNativeTarget "Sandlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5AECC719F806BE0073D5FA /* Debug */,
+				BE5AECC819F806BE0073D5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5AECC919F806BE0073D5FA /* Build configuration list for PBXNativeTarget "SandlotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5AECCA19F806BE0073D5FA /* Debug */,
+				BE5AECCB19F806BE0073D5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE5AECCD19F809CC0073D5FA /* Schema.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE5AECCE19F809CC0073D5FA /* Schema.xcdatamodel */,
+			);
+			currentVersion = BE5AECCE19F809CC0073D5FA /* Schema.xcdatamodel */;
+			path = Schema.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE5AECA119F806BD0073D5FA /* Project object */;
+}
